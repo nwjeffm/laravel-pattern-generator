@@ -1,14 +1,14 @@
 <?php
 
-namespace LordDashMe\PatternGenerator\Core;
+namespace NuWorks\PatternGenerator\Core;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Symfony\Component\Console\Input\InputArgument;
-use LordDashMe\PatternGenerator\Core\Traits\BuildClass;
-use LordDashMe\PatternGenerator\Core\Traits\Validation;
-use LordDashMe\PatternGenerator\Core\Traits\MakeDirectory;
-use LordDashMe\PatternGenerator\Core\Traits\ParseInputName;
+use NuWorks\PatternGenerator\Core\Traits\BuildClass;
+use NuWorks\PatternGenerator\Core\Traits\Validation;
+use NuWorks\PatternGenerator\Core\Traits\MakeDirectory;
+use NuWorks\PatternGenerator\Core\Traits\ParseInputName;
 
 abstract class BaseCommand extends Command
 {

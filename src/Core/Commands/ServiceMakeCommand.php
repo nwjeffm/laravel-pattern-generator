@@ -1,10 +1,10 @@
 <?php
 
-namespace LordDashMe\PatternGenerator\Core\Commands;
+namespace NuWorks\PatternGenerator\Core\Commands;
 
 use Illuminate\Support\Str;
 use Symfony\Component\Console\Input\InputOption;
-use LordDashMe\PatternGenerator\Core\BaseCommand;
+use NuWorks\PatternGenerator\Core\BaseCommand;
 
 class ServiceMakeCommand extends BaseCommand
 {

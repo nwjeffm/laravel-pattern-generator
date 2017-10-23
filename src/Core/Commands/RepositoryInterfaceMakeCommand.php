@@ -1,9 +1,9 @@
 <?php
 
-namespace LordDashMe\PatternGenerator\Core\Commands;
+namespace NuWorks\PatternGenerator\Core\Commands;
 
 use Symfony\Component\Console\Input\InputOption;
-use LordDashMe\PatternGenerator\Core\BaseCommand;
+use NuWorks\PatternGenerator\Core\BaseCommand;
 
 class RepositoryInterfaceMakeCommand extends BaseCommand
 {

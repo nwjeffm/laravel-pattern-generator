@@ -1,6 +1,6 @@
 <?php
 
-namespace LordDashMe\PatternGenerator\Core\Traits;
+namespace NuWorks\PatternGenerator\Core\Traits;
 
 trait MakeDirectory 
 {
