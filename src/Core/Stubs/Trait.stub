@@ -1,0 +1,52 @@
+<?php
+
+namespace [[DummyNamespace]];
+
+use Illuminate\Http\Request;
+
+trait [[DummyClass]]
+{
+    /**
+     * Show the index page.
+     *
+     * @param  \Illuminate\Http\Resquest  $request
+     * @return \Illuminate\Http\Response
+     */
+   	public function index(Request $request)
+   	{
+
+   	}
+
+   	/**
+   	 * The create route for the [[DummyClass]].
+   	 *
+   	 * @param  \Illuminate\Http\Resquest  $request
+   	 * @return \Illuminate\Http\Response
+   	 */
+   	public function postCreate(Request $request)
+   	{
+
+   	}
+
+   	/**
+   	 * The update route for the [[DummyClass]].
+   	 *
+   	 * @param  \Illuminate\Http\Resquest  $request
+   	 * @return \Illuminate\Http\Response
+   	 */
+   	public function postUpdate(Request $request)
+   	{
+
+   	}
+
+   	/**
+   	 * The delete route for the [[DummyClass]].
+   	 *
+   	 * @param  \Illuminate\Http\Resquest  $request
+   	 * @return \Illuminate\Http\Response
+   	 */
+   	public function postDelete(Request $request)
+   	{
+
+   	}
+}

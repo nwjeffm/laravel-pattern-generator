@@ -1,0 +1,45 @@
+{
+    "name": "lorddashme/laravel-pattern-generator",
+    "type": "package",
+    "description": "PHP Laravel - Pattern Generator",
+    "keywords": ["PHP", "Laravel", "Pattern Generator"],
+    "homepage": "https://github.com/LordDashMe/laravel-pattern-generator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joshua Clifford Reyes (LordDashMe)",
+            "email": "reyesjoshuaclifford@gmail.com",
+            "homepage": "https://lorddashme.github.io/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LordDashMe\\PatternGenerator\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.12",
+        "lorddashme/laravel-pattern-generator": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "lorddashme/laravel-pattern-generator",
+                "version": "master",
+                "source": {
+                    "url": "https://github.com/LordDashMe/laravel-pattern-generator",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LordDashMe\\PatternGenerator\\": "src/"
+                    }
+                }
+            }  
+        }
+    ]
+}

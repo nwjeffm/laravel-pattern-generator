@@ -1,0 +1,21 @@
+<?php 
+
+namespace [[DummyNamespace]];
+
+use App\Models\[[DummyModuleFolder]]\[[DummyClassNameSingular]];
+use App\Services\Base\BaseServiceAbstract;
+use App\Repositories\Interfaces\[[DummyModuleFolder]]\[[DummyClassName]]RepositoryInterface;
+
+class [[DummyClass]] extends BaseServiceAbstract implements [[DummyClassName]]RepositoryInterface
+{
+    /**
+     * Create a new model class instance(s).
+     *
+     * @param  App\Models\[[DummyModuleFolder]]\[[DummyClassNameSingular]]  $model
+     * @return void
+     */
+	public function __construct([[DummyClassNameSingular]] $model)
+	{
+        $this->setModelInstance($model);
+	}
+}
